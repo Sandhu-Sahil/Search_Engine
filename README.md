@@ -6,4 +6,6 @@
 
 ## <mark style="background-color: white; color: black;"><b>Scores:</b></mark>
 
-![Scores](https://github.com/Sandhu-Sahil/Professional_Web_Programming_Harvard_University/blob/master/Project-00%20Search%20Engine/Score_released.png)
+![Scores](https://github.com/Sandhu-Sahil/Search_Engine/blob/master/Score_released.png)
+
+#### <mark style="background-color: white; color: black;"><b>Other Projects:<a href="https://github.com/Sandhu-Sahil/Project_List_Professional_Web_Programming_Harvard_University"> List of Projects</a></b></mark>

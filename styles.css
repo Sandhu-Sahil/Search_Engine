@@ -1,0 +1,91 @@
+body{
+  background-image: url(images-attached/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: 1600px 1000px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  -webkit-backdrop-filter: blur(50%);
+  z-index: 100;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 23px;
+  text-shadow: -1.5px 0 #FF3B0A, 0 1.5px #FF3B0A, 1.5px 0 #FF3B0A, 0 -1.5px #FF3B0A;
+}
+
+.topnav a:hover {
+  color: #309AF1;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px #FF3B0A;
+}
+
+.topnav .active {
+  text-shadow: -2px 0 #FF3B0A, 0 2px #FF3B0A, 2px 0 #FF3B0A, 0 -2px #FF3B0A;
+  -webkit-filter: drop-shadow(5px 5px 5px #FF3B0A);
+  filter: 5px 5px 5px #FF3B0A;
+  color: #00FFFF;
+}
+
+#kk{
+  padding-top: 100px;
+  padding-left: 240px;
+  padding-right: 240px;
+  text-align: center;
+}
+
+#jj{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.syntax label {
+  display: inline-block;
+  width: 30%;
+  font-size: 20px;
+  color:white;
+}
+.syntax .whitespace {
+  display: inline-block;
+  width: 22%;
+  color:white;
+}
+.syntax .form-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.syntax .form-group label {
+  width: 20%;
+  font-size: 14px;
+  color:white;
+}
+.syntax .form-group input[type=text] {
+  width: 40%;
+  padding: 2px 0;
+}
+.syntax .form-group .clarification {
+  font-size: 11px;
+  width: 30%;
+  margin-left: 1%;
+  color:white;
+}
+.syntax .form-group .clarification .monospace {
+  font-family: monospace;
+  color:white;
+}
+.syntax .form-group .right-align {
+  width: 50%;
+  color:white;
+}
